@@ -107,48 +107,6 @@
             transform: translateY(-2px);
         }
 
-        /* modal */
-        .modal-backdrop { 
-            position:fixed; 
-            inset:0; 
-            background:rgba(0,0,0,0.85); 
-            display:none; 
-            align-items:center; 
-            justify-content:center; 
-            z-index:2000;
-            backdrop-filter: blur(10px);
-        }
-        .modal-backdrop.open { display:flex; }
-        .modal-card { 
-            width:90%; 
-            max-width:980px; 
-            border-radius:1.5rem; 
-            overflow:hidden; 
-            box-shadow:0 40px 80px rgba(0,0,0,0.8);
-            background: #0a0a0a;
-            border: 1px solid rgba(255,255,255,0.05);
-        }
-        .modal-card img { width:100%; height:auto; display:block; }
-        .modal-close { 
-            position:absolute; 
-            top:1rem; 
-            right:1rem; 
-            background:rgba(255,255,255,0.08); 
-            border-radius:.75rem; 
-            padding:.6rem; 
-            cursor:pointer;
-            width: 44px;
-            height: 44px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid rgba(255,255,255,0.1);
-            transition: all 0.2s ease;
-        }
-        .modal-close:hover {
-            background: rgba(255,255,255,0.15);
-        }
-
         /* donut stats - modified for straight ends */
         .donut-grid { 
             display:flex; 
